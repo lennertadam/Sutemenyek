@@ -17,3 +17,20 @@ body{
     font-weight: 400;
     font-style: normal;
   }
+
+  .container{
+    width: 600px;
+    height: 600px;
+    background-color: slateblue;
+    margin:200px auto;
+    position: relative;
+  }
+
+  .box{
+    height: 50px;
+    background-color: chartreuse;
+    position: sticky;
+    right: 0px;
+    left: 0px;
+    top:0;
+}
